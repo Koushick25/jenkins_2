@@ -11,7 +11,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat 'python3 calculator.py'
+                bat 'python calculator.py'
             }
         }
     }
